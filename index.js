@@ -35,15 +35,9 @@ function driversByRevenue(drivers){
 
 
 function driversByName(drivers){
-  let arr = [];
-  
-  drivers.forEach(function(ele){
-   arr.push(ele.name.values);    
-  });
-  
- let sarr = arr.sort(function(a,b){
-   return a - b ;
-   
- });
- console.log(sarr);
+  const compare = function (a,b) {
+    return (a.name).localeCompare(b.name);
+  };
+  const sortedByName = drivers.slice().sort(compare);
+  return sortedByName;
 }
