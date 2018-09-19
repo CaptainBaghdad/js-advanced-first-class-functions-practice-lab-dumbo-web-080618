@@ -41,5 +41,8 @@ function driversByName(drivers){
    arr.push(ele.name.values);    
   });
   
- 
+ let sarr = arr.sort(function(a,b){
+   
+   
+ });
 }
