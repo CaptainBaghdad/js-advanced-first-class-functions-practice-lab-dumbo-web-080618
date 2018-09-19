@@ -35,11 +35,11 @@ function driversByRevenue(drivers){
 
 
 function driversByName(drivers){
+  let arr = [];
   
-  let ans = drivers.slice().sort(function(ele1,ele2){
-    return ele1.name - ele2.name
-    
+  drivers.forEach(function(ele){
+   arr.push(ele.name.values);    
   });
   
-  
+  console.log(arr);
 }
