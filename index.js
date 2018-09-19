@@ -44,11 +44,8 @@ function driversByName(drivers){
 
 function totalRevenue(drivers){
   
-  return  drivers.forEach(function(ele){
-    return ele.revenue.reduce
-    
-  });
-  
+ 
+   
   
   
   
