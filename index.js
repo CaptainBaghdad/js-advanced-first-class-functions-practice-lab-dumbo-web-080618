@@ -43,7 +43,9 @@ function driversByName(drivers){
 }
 
 function totalRevenue(drivers){
-  const 
+  const reduceMe = function(){
+    
+  }
   
  
    }
