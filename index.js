@@ -41,5 +41,5 @@ function driversByName(drivers){
    arr.push(ele.name.values);    
   });
   
-  console.log(arr);
+ 
 }
