@@ -43,13 +43,13 @@ function driversByName(drivers){
 }
 
 function totalRevenue(drivers){
-  let  c = 0;
-  let ans=  drivers.forEach(function(ele){
-    c += ele
-    return c ;
+  
+  return  drivers.reduce(function(prev,curr){
+   
+    return prev + curr ;
   });
   
-  return c;
+  
   
   
   
