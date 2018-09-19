@@ -42,7 +42,7 @@ function driversByName(drivers){
   return sortedByName;
 }
 
-function totalRevenue(drivers){
+const totalRevenue = function(drivers){
   const reduceMe = function(inc,ele,i,arr){
     return inc + ele.revenue;
   }
