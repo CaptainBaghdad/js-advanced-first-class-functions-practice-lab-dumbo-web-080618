@@ -42,4 +42,15 @@ function driversByName(drivers){
   return sortedByName;
 }
 
-function
+function totalRevenue(drivers){
+  let  c = 0;
+  let ans=  drivers.forEach(function(ele){
+    c += ele
+    return c ;
+  });
+  
+  return c;
+  
+  
+  
+}
