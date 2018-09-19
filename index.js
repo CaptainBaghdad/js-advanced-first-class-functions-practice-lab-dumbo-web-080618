@@ -42,7 +42,8 @@ function driversByName(drivers){
   });
   
  let sarr = arr.sort(function(a,b){
-   
+   return a - b ;
    
  });
+ console.log(sarr);
 }
