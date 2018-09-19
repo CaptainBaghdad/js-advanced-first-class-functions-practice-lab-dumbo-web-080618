@@ -41,3 +41,5 @@ function driversByName(drivers){
   const sortedByName = drivers.slice().sort(compare);
   return sortedByName;
 }
+
+function
